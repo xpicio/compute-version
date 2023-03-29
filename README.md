@@ -18,7 +18,7 @@ docker run --rm -v $(pwd):/repo gittools/gitversion:6.0.0-beta.1 \
     /b main
 ```
 
-Local develop branch:
+Local branch:
 
 ```
 docker run --rm -v $(pwd):/repo gittools/gitversion:6.0.0-beta.1 /repo

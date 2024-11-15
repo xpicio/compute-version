@@ -117,3 +117,5 @@ Start from tag v0.3.3.
 |                                | main     |                                                  | 0.4.0-rc.9       | 0.4.0-rc.9         |
 | before tag (production deploy) | main     |                                                  | 0.4.0-9          | 0.4.0-9            |
 |                                | develop  |                                                  | 0.5.0-alpha.1    | 0.5.0-alpha.1      |
+|                                | develop  | update config again :)                           | 0.5.0-alpha.2    | 0.5.0-alpha.2      |
+|                                | develop  | update readme 66                                 | 0.5.0-alpha.3    | 0.5.0-alpha.3      |

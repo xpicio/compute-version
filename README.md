@@ -71,7 +71,7 @@ Start from tag v0.3.1 with conventional commits messages.
 | commit                  | arch-901 | fix: update file 6                             | 0.4.0-arch-901.1 | 0.4.0-arch-901.1+3 |
 | close feature           | arch-901 |                                                |                  |                    |
 |                         | develop  |                                                | 0.4.0-alpha.4    | 0.4.0-alpha.4      |
-| commit                  | develop  | fix: update file 7                             |                  |                    |
+| commit                  | develop  | fix: update file 7                             | 0.4.0-alpha.5    | 0.4.0-alpha.5      |
 | commit                  | develop  | chore: update file 8                           |                  |                    |
 | create release          |          |                                                |                  |                    |
 | close release           |          |                                                |                  |                    |

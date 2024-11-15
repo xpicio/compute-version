@@ -109,8 +109,8 @@ Start from tag v0.3.3.
 | commit                  | arch-902 | update file 55                                   | 0.4.0-arch-902.1 | 0.4.0-arch-902.1+5 |
 | close feature           | arch-902 |                                                  |                  |                    |
 |                         | develop  |                                                  | 0.4.0-alpha.6    | 0.4.0-alpha.6      |
-| commit                  | develop  | update readme 55                                 |                  |                    |
-| commit                  | develop  | update readme again 55                           |                  |                    |
+| commit                  | develop  | update readme 55                                 | 0.4.0-alpha.7    | 0.4.0-alpha.7      |
+| commit                  | develop  | update readme again 55                           | 0.4.0-alpha.8    | 0.4.0-alpha.8      |
 | create release          |          |                                                  |                  |                    |
 | commit                  | develop  | update readme in release 55                      |                  |                    |
 | close release           |          |                                                  |                  |                    |

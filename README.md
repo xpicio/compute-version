@@ -107,9 +107,9 @@ Start from tag v0.4.1.
 | create new feature             | arch-903     |                                              |                  |                     |
 | commit                         | arch-903     | update file 99                               | 0.5.0-arch-903.1 | 0.5.0-arch-903.1+10 |
 | close feature                  | arch-903     |                                              |                  |                     |
-|                                | develop      |                                              |                  |                     |
-| commit                         | develop      | update readme 99                             |                  |                     |
-| commit                         | develop      | update readme again 99                       |                  |                     |
+|                                | develop      |                                              | 0.5.0-alpha.11   | 0.5.0-alpha.11      |
+| commit                         | develop      | update readme 99                             | 0.5.0-alpha.12   | 0.5.0-alpha.12      |
+| commit                         | develop      | update readme again 99                       | 0.5.0-alpha.13   | 0.5.0-alpha.13      |
 | create release                 |              |                                              |                  |                     |
 | close release                  |              |                                              |                  |                     |
 |                                | develop      |                                              |                  |                     |

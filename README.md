@@ -1,27 +1,33 @@
 # compute-version
 
-Remote develop branch:
+Local develop branch:
 
 ```
-docker run --rm -v $(pwd):/repo gittools/gitversion:6.0.0-beta.1 \
+docker run --rm -e BUILD_NUMBER=899 -v $(pwd):/repo gittools/gitversion:6.0.4 \
     /repo \
-    /url https://github.com/xpicio/compute-version.git \
+    /nocache \
+    /config /repo/Gitversion.yml \
     /b develop
 ```
 
-Remote main branch:
+Local main branch:
 
 ```
-docker run --rm -v $(pwd):/repo gittools/gitversion:6.0.0-beta.1 \
+docker run --rm -e BUILD_NUMBER=899 -v $(pwd):/repo gittools/gitversion:6.0.4 \
     /repo \
-    /url https://github.com/xpicio/compute-version.git \
+    /nocache \
+    /config /repo/Gitversion.yml \
     /b main
 ```
 
-Local branch:
+Local production:
 
 ```
-docker run --rm -v $(pwd):/repo gittools/gitversion:6.0.0-beta.1 /repo
+docker run --rm -e BUILD_NUMBER=899 -v $(pwd):/repo gittools/gitversion:6.0.4 \
+    /repo \
+    /nocache \
+    /config /repo/Gitversion.prod.yml \
+    /b main
 ```
 
 ## Compute Behavior
@@ -72,9 +78,9 @@ Start from tag v0.3.1 with conventional commits messages.
 | close feature           | arch-901 |                                                |                  |                    |
 |                         | develop  |                                                | 0.4.0-alpha.4    | 0.4.0-alpha.4      |
 | commit                  | develop  | fix: update file 7                             | 0.4.0-alpha.5    | 0.4.0-alpha.5      |
-| commit                  | develop  | chore: update file 8                           |                  |                    |
+| commit                  | develop  | chore: update file 8                           | 0.4.0-alpha.6    | 0.4.0-alpha.6      |
 | create release          |          |                                                |                  |                    |
 | close release           |          |                                                |                  |                    |
-|                         | develop  |                                                |                  |                    |
-|                         | main     |                                                |                  |                    |
-| tag (production deploy) | main     |                                                |                  |                    |
+|                         | develop  |                                                | 0.4.0-alpha.8    | 0.4.0-alpha.8      |
+|                         | main     |                                                | 0.3.2-rc.7       | 0.3.2-rc.7         |
+| tag (production deploy) | main     |                                                | 0.3.2-7          | 0.3.2-7            |

@@ -120,7 +120,8 @@ Start from tag v0.4.1.
 |                                | develop      | update readme 99                             |                  |                     |
 | create new hotfix              | epic-error-3 |                                              |                  |                     |
 |                                | epic-error-3 |                                              | 0.6.0-beta.1     | 0.6.0-beta.1+0      |
-| commit                         | epic-error-3 | update readme in hotfix 99                   |                  |                     |
+| commit                         | epic-error-3 | update readme in hotfix 99                   | 0.6.0-beta.1     | 0.6.0-beta.1+1      |
+| commit                         | epic-error-3 | update readme in hotfix 99-2                 | 0.6.0-beta.1     | 0.6.0-beta.1+2      |
 | close release                  |              |                                              |                  |                     |
 |                                | develop      |                                              |                  |                     |
 | commit                         | develop      | update readme                                |                  |                     |

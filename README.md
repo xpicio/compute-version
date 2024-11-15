@@ -112,20 +112,20 @@ Start from tag v0.4.1.
 | commit                         | develop      | update again 99                              | 0.5.0-alpha.13   | 0.5.0-alpha.13      |
 | create release                 |              |                                              |                  |                     |
 | close release                  |              |                                              |                  |                     |
-|                                | develop      |                                              |                  |                     |
-|                                | main         |                                              |                  |                     |
-| before tag (production deploy) | main         |                                              |                  |                     |
-|                                | develop      |                                              |                  |                     |
-|                                | develop      | update config again :)                       |                  |                     |
-|                                | develop      | update readme 99                             |                  |                     |
+|                                | develop      |                                              | 0.5.0-alpha.15   | 0.5.0-alpha.15      |
+|                                | main         |                                              | 0.5.0-rc.14      | 0.5.0-rc.14         |
+| before tag (production deploy) | main         |                                              | 0.5.0-14         | 0.5.0-14            |
+|                                | develop      |                                              | 0.6.0-alpha.1    | 0.6.0-alpha.1       |
+|                                | develop      | update readme 199                            | 0.6.0-alpha.2    | 0.6.0-alpha.2       |
 | create new hotfix              | epic-error-3 |                                              |                  |                     |
 |                                | epic-error-3 |                                              | 0.6.0-beta.1     | 0.6.0-beta.1+0      |
 | commit                         | epic-error-3 | update readme in hotfix 99                   | 0.6.0-beta.1     | 0.6.0-beta.1+1      |
 | commit                         | epic-error-3 | update readme in hotfix 99-2                 | 0.6.0-beta.1     | 0.6.0-beta.1+2      |
 | commit                         | epic-error-3 | update readme in hotfix 99-3                 | 0.6.0-beta.1     | 0.6.0-beta.1+3      |
 | close hotfix                   |              |                                              |                  |                     |
-|                                | develop      |                                              |                  |                     |
-| commit                         | develop      | update readme                                |                  |                     |
-|                                | main         |                                              |                  |                     |
-| before tag (production deploy) | main         |                                              |                  |                     |
-|                                | develop      |                                              |                  |                     |
+|                                | develop      |                                              | 0.6.0-alpha.7    | 0.6.0-alpha.7       |
+| commit                         | develop      | update readme                                | 0.6.0-alpha.8    | 0.6.0-alpha.8       |
+|                                | main         |                                              | 0.6.0-rc.4       | 0.6.0-rc.4          |
+| before tag (production deploy) | main         |                                              | 0.6.0-4          | 0.6.0-4             |
+|                                | develop      |                                              | 0.7.0-alpha.4    | 0.7.0-alpha.4       |
+| commit                         | develop      | last update                                  | 0.7.0-alpha.5    | 0.7.0-alpha.5       |

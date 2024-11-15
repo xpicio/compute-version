@@ -1,27 +1,33 @@
 # compute-version
 
-Remote develop branch:
+Local develop branch:
 
 ```
-docker run --rm -v $(pwd):/repo gittools/gitversion:6.0.0-beta.1 \
+docker run --rm -e BUILD_NUMBER=899 -v $(pwd):/repo gittools/gitversion:6.0.4 \
     /repo \
-    /url https://github.com/xpicio/compute-version.git \
+    /nocache \
+    /config /repo/Gitversion.yml \
     /b develop
 ```
 
-Remote main branch:
+Local main branch:
 
 ```
-docker run --rm -v $(pwd):/repo gittools/gitversion:6.0.0-beta.1 \
+docker run --rm -e BUILD_NUMBER=899 -v $(pwd):/repo gittools/gitversion:6.0.4 \
     /repo \
-    /url https://github.com/xpicio/compute-version.git \
+    /nocache \
+    /config /repo/Gitversion.yml \
     /b main
 ```
 
-Local branch:
+Local production:
 
 ```
-docker run --rm -v $(pwd):/repo gittools/gitversion:6.0.0-beta.1 /repo
+docker run --rm -e BUILD_NUMBER=899 -v $(pwd):/repo gittools/gitversion:6.0.4 \
+    /repo \
+    /nocache \
+    /config /repo/Gitversion.prod.yml \
+    /b main
 ```
 
 ## Compute Behavior

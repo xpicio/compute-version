@@ -101,19 +101,19 @@ Start from tag v0.3.2 with conventional commits messages.
 
 Start from tag v0.3.3.
 
-| action                  | branch   | commit message                                   | SemVer        | FullSemVer    |
-| ----------------------- | -------- | ------------------------------------------------ | ------------- | ------------- |
-| commit                  | develop  |                                                  | 0.4.0-alpha.3 | 0.4.0-alpha.3 |
-| commit                  | develop  | update GitVersion configuration (with increment) | 0.4.0-alpha.4 | 0.4.0-alpha.4 |
-| create new feature      | arch-900 |                                                  |               |               |
-| commit                  | arch-899 | update file 55                                   |               |               |
-| close feature           | arch-890 |                                                  |               |               |
-|                         | develop  |                                                  |               |               |
-| commit                  | develop  | update readme 55                                 |               |               |
-| commit                  | develop  | update readme again 55                           |               |               |
-| create release          |          |                                                  |               |               |
-| commit                  | develop  | update readme in release 55                      |               |               |
-| close release           |          |                                                  |               |               |
-|                         | develop  |                                                  |               |               |
-|                         | main     |                                                  |               |               |
-| tag (production deploy) | main     |                                                  |               |               |
+| action                  | branch   | commit message                                   | SemVer           | FullSemVer         |
+| ----------------------- | -------- | ------------------------------------------------ | ---------------- | ------------------ |
+| commit                  | develop  |                                                  | 0.4.0-alpha.3    | 0.4.0-alpha.3      |
+| commit                  | develop  | update GitVersion configuration (with increment) | 0.4.0-alpha.4    | 0.4.0-alpha.4      |
+| create new feature      | arch-902 |                                                  |                  |                    |
+| commit                  | arch-902 | update file 55                                   | 0.4.0-arch-902.2 | 0.4.0-arch-902.2+5 |
+| close feature           | arch-902 |                                                  |                  |                    |
+|                         | develop  |                                                  |                  |                    |
+| commit                  | develop  | update readme 55                                 |                  |                    |
+| commit                  | develop  | update readme again 55                           |                  |                    |
+| create release          |          |                                                  |                  |                    |
+| commit                  | develop  | update readme in release 55                      |                  |                    |
+| close release           |          |                                                  |                  |                    |
+|                         | develop  |                                                  |                  |                    |
+|                         | main     |                                                  |                  |                    |
+| tag (production deploy) | main     |                                                  |                  |                    |

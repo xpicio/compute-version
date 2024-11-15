@@ -119,9 +119,11 @@ Start from tag v0.4.1.
 |                                | develop      | update config again :)                       |                  |                     |
 |                                | develop      | update readme 99                             |                  |                     |
 | create new hotfix              | epic-error-3 |                                              |                  |                     |
-|                                | epic-error-3 |                                              |                  |                     |
-| commit                         | epic-error-3 | update readme in release 99                  |                  |                     |
-| close release                  |              |                                              |                  |                     |
+|                                | epic-error-3 |                                              | 0.6.0-beta.1     | 0.6.0-beta.1+0      |
+| commit                         | epic-error-3 | update readme in hotfix 99                   | 0.6.0-beta.1     | 0.6.0-beta.1+1      |
+| commit                         | epic-error-3 | update readme in hotfix 99-2                 | 0.6.0-beta.1     | 0.6.0-beta.1+2      |
+| commit                         | epic-error-3 | update readme in hotfix 99-3                 | 0.6.0-beta.1     | 0.6.0-beta.1+3      |
+| close hotfix                   |              |                                              |                  |                     |
 |                                | develop      |                                              |                  |                     |
 | commit                         | develop      | update readme                                |                  |                     |
 |                                | main         |                                              |                  |                     |

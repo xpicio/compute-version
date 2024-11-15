@@ -12,6 +12,6 @@ branches:
   feature:
     increment: Minor
   hotfix:
-    increment: Patch
+    increment: Minor
   release:
     increment: Minor

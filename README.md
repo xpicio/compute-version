@@ -64,17 +64,17 @@ Start from tag v0.3.0.
 
 Start from tag v0.3.1 with conventional commits messages.
 
-| action                  | branch   | commit message                                 | SemVer        | FullSemVer    |
-| ----------------------- | -------- | ---------------------------------------------- | ------------- | ------------- |
-| commit                  | develop  | ci: update GitVersion configuration and readme | 0.4.0-alpha.2 | 0.4.0-alpha.2 |
-| create new feature      | arch-901 |                                                |               |               |
-| commit                  | arch-901 | fix: update file 6                             |               |               |
-| close feature           | arch-901 |                                                |               |               |
-|                         | develop  |                                                |               |               |
-| commit                  | develop  | update readme 1                                |               |               |
-| commit                  | develop  | update readme 2                                |               |               |
-| create release          |          |                                                |               |               |
-| close release           |          |                                                |               |               |
-|                         | develop  |                                                |               |               |
-|                         | main     |                                                |               |               |
-| tag (production deploy) | main     |                                                |               |               |
+| action                  | branch   | commit message                                 | SemVer           | FullSemVer         |
+| ----------------------- | -------- | ---------------------------------------------- | ---------------- | ------------------ |
+| commit                  | develop  | ci: update GitVersion configuration and readme | 0.4.0-alpha.2    | 0.4.0-alpha.2      |
+| create new feature      | arch-901 |                                                |                  |                    |
+| commit                  | arch-901 | fix: update file 6                             | 0.4.0-arch-901.1 | 0.4.0-arch-901.1+3 |
+| close feature           | arch-901 |                                                |                  |                    |
+|                         | develop  |                                                | 0.4.0-alpha.4    | 0.4.0-alpha.4      |
+| commit                  | develop  | fix: update file 7                             |                  |                    |
+| commit                  | develop  | chore: update file 8                           |                  |                    |
+| create release          |          |                                                |                  |                    |
+| close release           |          |                                                |                  |                    |
+|                         | develop  |                                                |                  |                    |
+|                         | main     |                                                |                  |                    |
+| tag (production deploy) | main     |                                                |                  |                    |

@@ -8,6 +8,7 @@ branches:
   main:
     regex: ^master$|^main$
     label: rc
+    increment: Minor
   feature:
     increment: Minor
   hotfix:

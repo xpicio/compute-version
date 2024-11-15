@@ -64,17 +64,17 @@ Start from tag v0.3.0.
 
 Start from tag v0.3.1 with conventional commits messages.
 
-| action                  | branch   | commit message                                 | SemVer | FullSemVer |
-| ----------------------- | -------- | ---------------------------------------------- | ------ | ---------- |
-| commit                  | develop  | ci: update GitVersion configuration and readme |        |            |
-| create new feature      | arch-901 |                                                |        |            |
-| commit                  | arch-901 | update file 6                                  |        |            |
-| close feature           | arch-901 |                                                |        |            |
-|                         | develop  |                                                |        |            |
-| commit                  | develop  | update readme 1                                |        |            |
-| commit                  | develop  | update readme 2                                |        |            |
-| create release          |          |                                                |        |            |
-| close release           |          |                                                |        |            |
-|                         | develop  |                                                |        |            |
-|                         | main     |                                                |        |            |
-| tag (production deploy) | main     |                                                |        |            |
+| action                  | branch   | commit message                                 | SemVer        | FullSemVer    |
+| ----------------------- | -------- | ---------------------------------------------- | ------------- | ------------- |
+| commit                  | develop  | ci: update GitVersion configuration and readme | 0.4.0-alpha.2 | 0.4.0-alpha.2 |
+| create new feature      | arch-901 |                                                |               |               |
+| commit                  | arch-901 | fix: update file 6                             |               |               |
+| close feature           | arch-901 |                                                |               |               |
+|                         | develop  |                                                |               |               |
+| commit                  | develop  | update readme 1                                |               |               |
+| commit                  | develop  | update readme 2                                |               |               |
+| create release          |          |                                                |               |               |
+| close release           |          |                                                |               |               |
+|                         | develop  |                                                |               |               |
+|                         | main     |                                                |               |               |
+| tag (production deploy) | main     |                                                |               |               |

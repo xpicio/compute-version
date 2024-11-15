@@ -55,3 +55,5 @@ Start from tag v0.3.0.
 |                    | develop  |                                 | 0.4.0-alpha.4    | 0.4.0-alpha.4      |
 | commit             | develop  | update readme                   | 0.4.0-alpha.5    | 0.4.0-alpha.5      |
 | commit             | develop  | update readme again             | 0.4.0-alpha.6    | 0.4.0-alpha.6      |
+| create release     |          |                                 |                  |                    |
+| close release      |          |                                 |                  |                    |

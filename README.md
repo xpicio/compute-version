@@ -123,8 +123,8 @@ Start from tag v0.4.1.
 | commit                         | epic-error-3 | update readme in hotfix 99-2                 | 0.6.0-beta.1     | 0.6.0-beta.1+2      |
 | commit                         | epic-error-3 | update readme in hotfix 99-3                 | 0.6.0-beta.1     | 0.6.0-beta.1+3      |
 | close hotfix                   |              |                                              |                  |                     |
-|                                | develop      |                                              |                  |                     |
-| commit                         | develop      | update readme                                |                  |                     |
+|                                | develop      |                                              | 0.6.0-alpha.7    | 0.6.0-alpha.7       |
+| commit                         | develop      | update readme                                | 0.6.0-alpha.8    | 0.6.0-alpha.8       |
 |                                | main         |                                              |                  |                     |
 | before tag (production deploy) | main         |                                              |                  |                     |
 |                                | develop      |                                              |                  |                     |

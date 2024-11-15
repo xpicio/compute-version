@@ -87,33 +87,41 @@ Start from tag v0.3.1 with conventional commits messages.
 
 Start from tag v0.3.2 with conventional commits messages.
 
-| action                  | branch     | commit message     | SemVer        | FullSemVer     |
-| ----------------------- | ---------- | ------------------ | ------------- | -------------- |
-| create new hostfix      | epic-error |                    |               |                |
-|                         | epic-error |                    | 0.3.3-beta.1  | 0.3.3-beta.1+4 |
-| commit                  | epic-error | fix: error         | 0.3.3-beta.1  | 0.3.3-beta.1+5 |
-| close hostfix           |            |                    |               |                |
-|                         | develop    |                    | 0.4.0-alpha.7 | 0.4.0-alpha.7  |
-|                         | main       |                    | 0.3.3-rc.6    | 0.3.3-rc.6     |
-| tag (production deploy) | main       |                    | 0.3.3-6       | 0.3.3-6        |
-|                         | develop    |                    | 0.4.0-alpha.1 | 0.4.0-alpha.1  |
-| commit                  | develop    | doc: update readme | 0.4.0-alpha.2 | 0.4.0-alpha.2  |
+| action                         | branch     | commit message     | SemVer        | FullSemVer     |
+| ------------------------------ | ---------- | ------------------ | ------------- | -------------- |
+| create new hotfix              | epic-error |                    |               |                |
+|                                | epic-error |                    | 0.3.3-beta.1  | 0.3.3-beta.1+4 |
+| commit                         | epic-error | fix: error         | 0.3.3-beta.1  | 0.3.3-beta.1+5 |
+| close hotfix                   |            |                    |               |                |
+|                                | develop    |                    | 0.4.0-alpha.7 | 0.4.0-alpha.7  |
+|                                | main       |                    | 0.3.3-rc.6    | 0.3.3-rc.6     |
+| before tag (production deploy) | main       |                    | 0.3.3-6       | 0.3.3-6        |
+|                                | develop    |                    | 0.4.0-alpha.1 | 0.4.0-alpha.1  |
+| commit                         | develop    | doc: update readme | 0.4.0-alpha.2 | 0.4.0-alpha.2  |
 
 Start from tag v0.3.3.
 
-| action                  | branch   | commit message                                   | SemVer           | FullSemVer         |
-| ----------------------- | -------- | ------------------------------------------------ | ---------------- | ------------------ |
-| commit                  | develop  |                                                  | 0.4.0-alpha.3    | 0.4.0-alpha.3      |
-| commit                  | develop  | update GitVersion configuration (with increment) | 0.4.0-alpha.4    | 0.4.0-alpha.4      |
-| create new feature      | arch-902 |                                                  |                  |                    |
-| commit                  | arch-902 | update file 55                                   | 0.4.0-arch-902.1 | 0.4.0-arch-902.1+5 |
-| close feature           | arch-902 |                                                  |                  |                    |
-|                         | develop  |                                                  | 0.4.0-alpha.6    | 0.4.0-alpha.6      |
-| commit                  | develop  | update readme 55                                 | 0.4.0-alpha.7    | 0.4.0-alpha.7      |
-| commit                  | develop  | update readme again 55                           | 0.4.0-alpha.8    | 0.4.0-alpha.8      |
-| create release          |          |                                                  |                  |                    |
-| commit                  | develop  | update readme in release 55                      |                  |                    |
-| close release           |          |                                                  |                  |                    |
-|                         | develop  |                                                  |                  |                    |
-|                         | main     |                                                  |                  |                    |
-| tag (production deploy) | main     |                                                  |                  |                    |
+| action                         | branch       | commit message                                   | SemVer           | FullSemVer         |
+| ------------------------------ | ------------ | ------------------------------------------------ | ---------------- | ------------------ |
+| commit                         | develop      | update GitVersion configuration (with increment) | 0.4.0-alpha.4    | 0.4.0-alpha.4      |
+| create new feature             | arch-902     |                                                  |                  |                    |
+| commit                         | arch-902     | update file 55                                   | 0.4.0-arch-902.1 | 0.4.0-arch-902.1+5 |
+| close feature                  | arch-902     |                                                  |                  |                    |
+|                                | develop      |                                                  | 0.4.0-alpha.6    | 0.4.0-alpha.6      |
+| commit                         | develop      | update readme 55                                 | 0.4.0-alpha.7    | 0.4.0-alpha.7      |
+| commit                         | develop      | update readme again 55                           | 0.4.0-alpha.8    | 0.4.0-alpha.8      |
+| create release                 |              |                                                  |                  |                    |
+| close release                  |              |                                                  |                  |                    |
+|                                | develop      |                                                  | 0.4.0-alpha.10   | 0.4.0-alpha.10     |
+|                                | main         |                                                  | 0.4.0-rc.9       | 0.4.0-rc.9         |
+| before tag (production deploy) | main         |                                                  | 0.4.0-9          | 0.4.0-9            |
+|                                | develop      |                                                  | 0.5.0-alpha.1    | 0.5.0-alpha.1      |
+|                                | develop      | update config again :)                           | 0.5.0-alpha.2    | 0.5.0-alpha.2      |
+|                                | develop      | update readme 66                                 | 0.5.0-alpha.3    | 0.5.0-alpha.3      |
+| create new hotfix              | epic-error-2 |                                                  |                  |                    |
+|                                | epic-error-2 |                                                  | 0.4.1-beta.1     | 0.4.1-beta.1+0     |
+| commit                         | epic-error-2 | update readme in release 66                      |                  |                    |
+| close release                  |              |                                                  |                  |                    |
+|                                | develop      |                                                  |                  |                    |
+|                                | main         |                                                  |                  |                    |
+| before tag (production deploy) | main         |                                                  |                  |                    |

@@ -122,6 +122,6 @@ Start from tag v0.3.3.
 |                                | epic-error-2 |                                                  | 0.4.1-beta.1     | 0.4.1-beta.1+0     |
 | commit                         | epic-error-2 | update readme in release 66                      | 0.4.1-beta.1     | 0.4.1-beta.1+1     |
 | close release                  |              |                                                  |                  |                    |
-|                                | develop      |                                                  | 0.5.0-alpha.3    | 0.5.0-alpha.3      |
+|                                | develop      |                                                  | 0.5.0-alpha.6    | 0.5.0-alpha.6      |
 |                                | main         |                                                  |                  |                    |
 | before tag (production deploy) | main         |                                                  |                  |                    |

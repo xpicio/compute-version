@@ -125,6 +125,7 @@ Start from tag v0.4.1.
 | close hotfix                   |              |                                              |                  |                     |
 |                                | develop      |                                              | 0.6.0-alpha.7    | 0.6.0-alpha.7       |
 | commit                         | develop      | update readme                                | 0.6.0-alpha.8    | 0.6.0-alpha.8       |
-|                                | main         |                                              |                  |                     |
-| before tag (production deploy) | main         |                                              |                  |                     |
-|                                | develop      |                                              |                  |                     |
+|                                | main         |                                              | 0.6.0-rc.4       | 0.6.0-rc.4          |
+| before tag (production deploy) | main         |                                              | 0.6.0-4          | 0.6.0-4             |
+|                                | develop      |                                              | 0.7.0-alpha.4    | 0.7.0-alpha.4       |
+| commit                         | develop      | last update                                  | 0.7.0-alpha.5    | 0.7.0-alpha.5       |

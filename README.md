@@ -72,9 +72,9 @@ Start from tag v0.3.1 with conventional commits messages.
 | close feature           | arch-901 |                                                |                  |                    |
 |                         | develop  |                                                | 0.4.0-alpha.4    | 0.4.0-alpha.4      |
 | commit                  | develop  | fix: update file 7                             | 0.4.0-alpha.5    | 0.4.0-alpha.5      |
-| commit                  | develop  | chore: update file 8                           |                  |                    |
+| commit                  | develop  | chore: update file 8                           | 0.4.0-alpha.6    | 0.4.0-alpha.6      |
 | create release          |          |                                                |                  |                    |
 | close release           |          |                                                |                  |                    |
-|                         | develop  |                                                |                  |                    |
-|                         | main     |                                                |                  |                    |
-| tag (production deploy) | main     |                                                |                  |                    |
+|                         | develop  |                                                | 0.4.0-alpha.8    | 0.4.0-alpha.8      |
+|                         | main     |                                                | 0.3.2-rc.7       | 0.3.2-rc.7         |
+| tag (production deploy) | main     |                                                | 0.3.2-7          | 0.3.2-7            |

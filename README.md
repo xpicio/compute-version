@@ -87,13 +87,14 @@ Start from tag v0.3.1 with conventional commits messages.
 
 Start from tag v0.3.2 with conventional commits messages.
 
-| action                  | branch     | commit message | SemVer        | FullSemVer     |
-| ----------------------- | ---------- | -------------- | ------------- | -------------- |
-| create new hostfix      | epic-error |                |               |                |
-|                         | epic-error |                | 0.3.3-beta.1  | 0.3.3-beta.1+4 |
-| commit                  | epic-error | fix: error     | 0.3.3-beta.1  | 0.3.3-beta.1+5 |
-| close hostfix           |            |                |               |                |
-|                         | develop    |                | 0.4.0-alpha.7 | 0.4.0-alpha.7  |
-|                         | main       |                | 0.3.3-rc.6    | 0.3.3-rc.6     |
-| tag (production deploy) | main       |                | 0.3.3-6       | 0.3.3-6        |
-|                         | develop    |                | 0.4.0-alpha.1 | 0.4.0-alpha.1  |
+| action                  | branch     | commit message     | SemVer        | FullSemVer     |
+| ----------------------- | ---------- | ------------------ | ------------- | -------------- |
+| create new hostfix      | epic-error |                    |               |                |
+|                         | epic-error |                    | 0.3.3-beta.1  | 0.3.3-beta.1+4 |
+| commit                  | epic-error | fix: error         | 0.3.3-beta.1  | 0.3.3-beta.1+5 |
+| close hostfix           |            |                    |               |                |
+|                         | develop    |                    | 0.4.0-alpha.7 | 0.4.0-alpha.7  |
+|                         | main       |                    | 0.3.3-rc.6    | 0.3.3-rc.6     |
+| tag (production deploy) | main       |                    | 0.3.3-6       | 0.3.3-6        |
+|                         | develop    |                    | 0.4.0-alpha.1 | 0.4.0-alpha.1  |
+| commit                  | develop    | doc: update readme | 0.4.0-alpha.2 | 0.4.0-alpha.2  |

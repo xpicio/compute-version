@@ -99,31 +99,31 @@ Start from tag v0.3.2 with conventional commits messages.
 |                                | develop    |                    | 0.4.0-alpha.1 | 0.4.0-alpha.1  |
 | commit                         | develop    | doc: update readme | 0.4.0-alpha.2 | 0.4.0-alpha.2  |
 
-Start from tag v0.3.3.
+Start from tag v0.4.1.
 
-| action                         | branch       | commit message                                   | SemVer           | FullSemVer         |
-| ------------------------------ | ------------ | ------------------------------------------------ | ---------------- | ------------------ |
-| commit                         | develop      | update GitVersion configuration (with increment) | 0.4.0-alpha.4    | 0.4.0-alpha.4      |
-| create new feature             | arch-902     |                                                  |                  |                    |
-| commit                         | arch-902     | update file 55                                   | 0.4.0-arch-902.1 | 0.4.0-arch-902.1+5 |
-| close feature                  | arch-902     |                                                  |                  |                    |
-|                                | develop      |                                                  | 0.4.0-alpha.6    | 0.4.0-alpha.6      |
-| commit                         | develop      | update readme 55                                 | 0.4.0-alpha.7    | 0.4.0-alpha.7      |
-| commit                         | develop      | update readme again 55                           | 0.4.0-alpha.8    | 0.4.0-alpha.8      |
-| create release                 |              |                                                  |                  |                    |
-| close release                  |              |                                                  |                  |                    |
-|                                | develop      |                                                  | 0.4.0-alpha.10   | 0.4.0-alpha.10     |
-|                                | main         |                                                  | 0.4.0-rc.9       | 0.4.0-rc.9         |
-| before tag (production deploy) | main         |                                                  | 0.4.0-9          | 0.4.0-9            |
-|                                | develop      |                                                  | 0.5.0-alpha.1    | 0.5.0-alpha.1      |
-|                                | develop      | update config again :)                           | 0.5.0-alpha.2    | 0.5.0-alpha.2      |
-|                                | develop      | update readme 66                                 | 0.5.0-alpha.3    | 0.5.0-alpha.3      |
-| create new hotfix              | epic-error-2 |                                                  |                  |                    |
-|                                | epic-error-2 |                                                  | 0.4.1-beta.1     | 0.4.1-beta.1+0     |
-| commit                         | epic-error-2 | update readme in release 66                      | 0.4.1-beta.1     | 0.4.1-beta.1+1     |
-| close release                  |              |                                                  |                  |                    |
-|                                | develop      |                                                  | 0.5.0-alpha.6    | 0.5.0-alpha.6      |
-| commit                         | develop      | update readme                                    | 0.5.0-alpha.7    | 0.5.0-alpha.7      |
-|                                | main         |                                                  | 0.4.1-rc.2       | 0.4.1-rc.2         |
-| before tag (production deploy) | main         |                                                  | 0.4.1-2          | 0.4.1-2            |
-|                                | develop      |                                                  | 0.5.0-alpha.5    | 0.5.0-alpha.5      |
+| action                         | branch       | commit message                               | SemVer | FullSemVer |
+| ------------------------------ | ------------ | -------------------------------------------- | ------ | ---------- |
+| commit                         | develop      | update GitVersion configuration (with Minor) |        |            |
+| create new feature             | arch-903     |                                              |        |            |
+| commit                         | arch-903     | update file 99                               |        |            |
+| close feature                  | arch-903     |                                              |        |            |
+|                                | develop      |                                              |        |            |
+| commit                         | develop      | update readme 99                             |        |            |
+| commit                         | develop      | update readme again 99                       |        |            |
+| create release                 |              |                                              |        |            |
+| close release                  |              |                                              |        |            |
+|                                | develop      |                                              |        |            |
+|                                | main         |                                              |        |            |
+| before tag (production deploy) | main         |                                              |        |            |
+|                                | develop      |                                              |        |            |
+|                                | develop      | update config again :)                       |        |            |
+|                                | develop      | update readme 99                             |        |            |
+| create new hotfix              | epic-error-3 |                                              |        |            |
+|                                | epic-error-3 |                                              |        |            |
+| commit                         | epic-error-3 | update readme in release 99                  |        |            |
+| close release                  |              |                                              |        |            |
+|                                | develop      |                                              |        |            |
+| commit                         | develop      | update readme                                |        |            |
+|                                | main         |                                              |        |            |
+| before tag (production deploy) | main         |                                              |        |            |
+|                                | develop      |                                              |        |            |

@@ -4,4 +4,4 @@ assembly-file-versioning-format: '{Major}.{Minor}.{Patch}.{env:BUILD_NUMBER ?? 4
 branches:
   main:
     regex: ^master$|^main$
-    label: rc
+    label: ''

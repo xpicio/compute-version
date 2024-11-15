@@ -8,3 +8,9 @@ branches:
   main:
     regex: ^master$|^main$
     label: rc
+  feature:
+    increment: Minor
+  hotfix:
+    increment: Patch
+  release:
+    increment: Minor

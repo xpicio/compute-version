@@ -109,7 +109,7 @@ Start from tag v0.4.1.
 | close feature                  | arch-903     |                                              |                  |                     |
 |                                | develop      |                                              | 0.5.0-alpha.11   | 0.5.0-alpha.11      |
 | commit                         | develop      | update readme 99                             | 0.5.0-alpha.12   | 0.5.0-alpha.12      |
-| commit                         | develop      | update readme again 99                       | 0.5.0-alpha.13   | 0.5.0-alpha.13      |
+| commit                         | develop      | update again 99                              | 0.5.0-alpha.13   | 0.5.0-alpha.13      |
 | create release                 |              |                                              |                  |                     |
 | close release                  |              |                                              |                  |                     |
 |                                | develop      |                                              |                  |                     |
